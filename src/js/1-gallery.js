@@ -63,6 +63,10 @@ const images = [
     description: 'Lighthouse Coast Sea',
   },
 ];
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
+
+
 
 const item = document.querySelector('.gallery');
 
@@ -74,9 +78,6 @@ item.innerHTML = images.map(({ preview, original, description }) => `
   </li>
 `).join('');
 
-
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
 
 let gallery = new SimpleLightbox('.gallery a', {
     captionDelay: 250, captionsData: 'alt', className: 'modal-style'});
