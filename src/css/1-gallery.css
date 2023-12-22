@@ -1,0 +1,56 @@
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+    color: #242424;
+    background-color: rgba(255, 255, 255, 0.87);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.modal-style {
+    background-color: rgba(46, 47, 66, 0.80);
+}
+
+.gallery {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1128px;
+    height: 700px;
+    gap: 24px;
+    row-gap: 24px;
+    padding: 24px, 156px;
+    align-items: center;
+}
+
+.sl-wrapper .sl-navigation .sl-next {
+
+    color: white;
+}
+
+.sl-wrapper .sl-navigation .sl-prev {
+    color: white;
+}
+
+.sl-wrapper .sl-counter .sl-current {
+    color: white;
+}
+
+.sl-wrapper .sl-counter .sl-total {
+    color: white;
+}
+
+.modal-style.sl-wrapper .sl-counter {
+    color: white;
+}
+
+.sl-wrapper.modal-style .sl-close {
+    color: white;
+}
